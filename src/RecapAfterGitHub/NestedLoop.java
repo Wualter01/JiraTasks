@@ -63,4 +63,6 @@ public class NestedLoop {
         }
         System.out.println();
     }
+        //YOUR TOTAL AMOUNT OF ROWS WILL DEPEND ON YOUR PARENT LOOP AND YOUR COLUMNS WILL BE YOUR CHILD LOOP
+
 }}
