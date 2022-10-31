@@ -33,7 +33,8 @@ public class Array4 {
             if (numberList2[k] < minNumber){//we need another if statement because we are comparing 2 separate variables
                 //we dont have to tell java to start at index 0 again because we have already defined where to start
                 //with our variable k
-                minNumber=numberList2[k];//this is saying reassign my min number to the number at numberlist2[k]
+                minNumber=numberList2[k];//this is saying reassign my min number to the number at numberlist2[k] if it
+                // is less than the number at k if not ignore anc continue loop
             }
         }
         System.out.println("maxNumber = " + maxNumber);
