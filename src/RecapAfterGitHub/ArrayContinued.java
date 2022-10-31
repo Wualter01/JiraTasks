@@ -32,7 +32,7 @@ then variable i will print your names 1 by one til condition is met
 
         String engineer= new String();// this will store only one engineer
         String [] engineers= new String[5];//size for this container is defined as 5 index numbers =0-4
-        //array size is fixed. You will need to specify the length when you create an array.
+        //array size is fixed. You will need to specify the length when you create an array this way.
         //size has to be passed between brackets[]
         //for engineers we have size ==5 (number will be assigned as soon as you create the array)
         //since we didnt define index numbers with data all the index spaces will be null and return "null".
