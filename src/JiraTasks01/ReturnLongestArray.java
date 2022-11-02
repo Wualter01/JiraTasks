@@ -14,6 +14,10 @@ public class ReturnLongestArray {
         int MaxLengthIndex1 = names[0].length();
 
         for (int i = 0; i < names.length; i++) {
+
+            System.out.println(names[i]+" has length of "+ names[i].length());//this is so we can see what's going on
+            //as it loops
+
             if (names[i].length()>MaxLengthIndex1){
                 MaxLengthIndex1=i;
             }
