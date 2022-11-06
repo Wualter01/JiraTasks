@@ -4,7 +4,7 @@ public class TaskDay1 {
     public static void main(String[] args) {
         String walt="vasquez";
         String Ogun="";
-//we only have define what our INT = once then java knows what i is
+//we only have defined what our INT = once then java knows what i is
         for (int i=walt.length()-1; i>=0; i--){
             Ogun=Ogun+walt.charAt(i);
 

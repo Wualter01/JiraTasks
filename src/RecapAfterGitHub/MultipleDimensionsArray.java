@@ -1,4 +1,4 @@
-package JiraTasks01;
+package RecapAfterGitHub;
 
 import java.util.Arrays;
 
