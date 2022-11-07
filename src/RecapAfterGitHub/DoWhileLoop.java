@@ -40,9 +40,10 @@ public class DoWhileLoop {
         do {
             System.out.println(number3);
             number3--;
-        }while(number3<0);//we will see only the number 5 be printed because hava reads from top to bottom
+        }while(number3<0);//we will see only the number 5 be printed because java reads from top to bottom
         //so sout goes first then it decreases and condition becomes false and no longer becomes true so it will
         //only run once remember loop runs and continues to run as long as condition is true.
+        //do runs once whether condition is true or false thats why you see 5 in output*
         //HERE YOU ARE OUT OF YOUR LOOP
 
         //printing even numbers from 0-100 using do while loop
