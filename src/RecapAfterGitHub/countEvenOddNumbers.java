@@ -29,7 +29,9 @@ public class countEvenOddNumbers {
         int evenCount2=0;
         int oddCount2=0;
         for (int i=0; i<numberList.length; i++){
-            if (i %2==0){
+            if (numberList[i] %2==0){//if i wrote (i%2==0) i represents the numbers of length 1,2,3,4,5 of array its not
+                //looking at the values in my array for that we must write numberList[i]. which translates look at
+                //the value of index at the number [i] so itll shuffle through indexs using i=33, i=4, etc...
                 evenCount2++;
             }else{
                 oddCount2++;
