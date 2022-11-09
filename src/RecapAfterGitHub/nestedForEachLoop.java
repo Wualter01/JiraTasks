@@ -14,7 +14,8 @@ public class nestedForEachLoop {
         int [][] arr2D={  {1,2,3},  {4,5},  {6,7,8,9,10,11,12}  };
         /*logic for getting data values from 2D array using nested for each loop first loop will get containers then
         your nested for each loop will get the values from containers.
-        we start by creating an int array that will store our containers from 2D
+        we start by creating an int array that will store our containers from 2D. we must break it down to reach
+        our values. examples shown below
          */
 
         for (int [] eachContainer1D : arr2D){//the containers must be stored into in array int until we can reach values
