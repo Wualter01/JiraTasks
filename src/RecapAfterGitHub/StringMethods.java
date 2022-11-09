@@ -20,7 +20,7 @@ public class StringMethods {
         //even spaces as char
         System.out.println(letters[7]);
 
-        /*String method     split()      function = this will split given string from specific condition in the string
+        /*String method     split()      function = this will split given string from specific place in the string
         return type = String()
          */
 
