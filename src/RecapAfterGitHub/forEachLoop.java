@@ -38,7 +38,7 @@ you want to look or go through all data and dont need to specify starting or end
             //for each loop
         }
 
-        System.out.println();//used to break line because i have used print instead of println
+        System.out.println();//used to break line because i have used print instead of println above
 
 
     }
