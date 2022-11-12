@@ -1,6 +1,7 @@
 package RecapAfterGitHub;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class forEachLoop {
 /*so far we have learned the following for loop, while loop, do while loop.
@@ -15,7 +16,7 @@ you want to look or go through all data and dont need to specify starting or end
         int [] numbers={1,2,3,4,5,6};
 
         for (int eachNumber : numbers ){//syntax for each loop to check all data
-            //for each loop will store each variable from the numbers list in each iteration from 1st to last
+            //for each loop will store each value from the numbers list in each iteration from 1st to last
             System.out.println(eachNumber);
         }
 
@@ -39,8 +40,36 @@ you want to look or go through all data and dont need to specify starting or end
         }
 
         System.out.println();//used to break line because i have used print instead of println above
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Enter your string");
+        String yourInput= scan.nextLine();
+        String Reversed="";
 
+        for (int i = yourInput.length()-1; i >=0; i--) {
+            Reversed+=yourInput.charAt(i);
 
+        }
+        System.out.println(Reversed);
+        System.out.println("*********************");
+
+        int [] numbersList={30,2,29,0};
+        Arrays.sort(numbersList);
+        System.out.println(Arrays.toString(numbersList));//sort will sort numbers from least to greatest
+    int [] biggestToSmallest= new int [numbersList.length];//this is specifying the length of my new array to fit
+        //the data in numbersList so we can add and subtract numbers and itll always accommodate the new length
+    int temp=0;//this will serve as our starting point to begin storing our numbers from biggest to smallest as they
+        //circulate through the loop using variable i. if i had simply put 0 i could not move from index 0. by putting
+        //it in a variable i can pass it through [temp=0=index] and now i can say temp++ and itll store numbers
+        //at index 0, then temp++ new number at index 1 and so on..
+        for (int i = numbersList.length-1; i >=0; i--) {//i have specified i wish to begin at numbersListarray and ive
+            //specified i want to begin at last index
+            biggestToSmallest[temp]=numbersList[i];//i have specified i want store numbers at i as they loop into my
+            //biggest to smallest index's as they also move positions
+            temp++;
+
+        }
+
+        System.out.println(Arrays.toString(biggestToSmallest));
     }
 
     }

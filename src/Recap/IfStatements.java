@@ -10,7 +10,7 @@ public class IfStatements {
 
         if (2>2) {// opening bracket for if statement//false
 
-            System.out.println("kat");//if muy If statement is false it will not read anything in our if statement
+            System.out.println("kat");//if my If statement is false it will not read anything in our if statement
             //or check anything in our body of if statement
 
         }//closing bracket for if statement/ JAVA READS TOP TO BOTTOM BY LINE*
