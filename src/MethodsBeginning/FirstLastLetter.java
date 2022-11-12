@@ -3,6 +3,8 @@ package MethodsBeginning;
 import java.util.Arrays;
 import java.util.Scanner;
 
+import static MethodsBeginning.MethodsRealBeginning.hello;
+
 public class FirstLastLetter {
     /*TASK: create a java program that will ask for 5 string-names to store in array.
     print first and last letter from each string
@@ -41,6 +43,7 @@ public class FirstLastLetter {
 
         }
         System.out.println(firstLastLetters);
+
     }
 
 }
