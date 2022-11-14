@@ -10,6 +10,6 @@ public class GenericUtils {
             //would start as off as false and loop breaks. loop runs as long as condition is true.
             reversedResult+=name.charAt(i);
         }
-        System.out.println(reversedResult);
+        System.out.println("reversedResult = " + reversedResult);
 }}
 
