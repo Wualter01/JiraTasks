@@ -31,7 +31,8 @@ public class WhileLoop {
 
         while(number1>0){
             System.out.println("number1 = " +number1);//
-            number1--;//5,4,3,2,1, and 0 because of the order output but it will not run in loop condition
+            number1--;//5,4,3,2,1, and 0 because of the order output but it will not execute to our loop condition
+            //because once 0 condition is false and loop breaks
         }
 
     }
