@@ -65,4 +65,22 @@ public class UniqueLetterFromArray {
         }
 
     }
+    public static void uniqueFromArray2(String [] letters1){//unique from array using for-loop
+        //String [] letters = {"A","A","B" "C","D","D"}
+        for (int i=0; i<letters1.length; i++){//this starts at 0 and however long the array is lets say 7 length which
+            //means index which is what i is traveling at will be 6 and less than works because loop will stop at 6
+            //this will sart with A
+            int countChocula=0;
+            for (int i1=0; i1<letters1.length; i1++){//this will take our first "A" value and loop it and compare it to
+                //the rest of the values in array ex: A,A,B, C,D,D
+                if (letters1[i1].equals(i)){
+                    countChocula++;
+                }
+
+        }
+            if (countChocula==1){
+                System.out.println(letters1[i]+ " is unique");
+            }
+        }
+    }
 }

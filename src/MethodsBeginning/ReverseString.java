@@ -16,6 +16,7 @@ public class ReverseString {
         StringReverse("dog");//then we call our StringReverse method and itll ask for 1 string parameter we
         //called in this case "name". we dont need to call the class because we are in the same class as the method was
         //declared in.
+        StringReverse("Yelnats stanley");
 
 
     }
