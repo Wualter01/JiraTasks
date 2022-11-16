@@ -1,5 +1,7 @@
 package MethodsBeginning;
 
+import MyUtils.GenericUtils;
+
 import java.util.Arrays;
 
 public class ArraySorting {
@@ -10,6 +12,7 @@ public class ArraySorting {
         System.out.println(Arrays.toString(numbers));
         int[] numbers2 = {5, 45, 67, 89, 0, 2, 4, 21, 47};
         descendingSort(numbers2);
+        GenericUtils.StarSeparation();
         System.out.println(Arrays.toString(SmallToLarge(numbers2)));//using return int [] type
         //you could also do int [] descendingResult=SmallestToLarge(numbers2)
         //and then sout(Arrays.toString(descendingResult)); this is us storing it in a variable which we cannot do with
