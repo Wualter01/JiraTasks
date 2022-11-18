@@ -21,7 +21,7 @@ public class Dates {
 
         System.out.println(b1 + " / "+b2+" / "+b3);
 
-        //todayDate method
+        //todayDate method from class LocalDate
         LocalDate todaysDate=LocalDate.now();
         System.out.println(todaysDate.toString().replace("-",".")); //we are replacing dashes with
         //dots for aesthetic / LocalDate brings a lot of methods you can explore using .etc..
