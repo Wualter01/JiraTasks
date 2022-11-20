@@ -19,5 +19,7 @@ public class ValueOfMethod {//valueOfMethod : converting a string to wrapper cla
 
         Double d1=Double.valueOf(str2);
         System.out.println(d1+10);//will output or return wrapper class value (object)
+
+
     }
 }
