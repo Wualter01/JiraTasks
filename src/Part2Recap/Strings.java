@@ -29,7 +29,7 @@ public class Strings {
 
         System.out.println(str1==str2);
         System.out.println(str1==str3); //even tho str3 contains hello it is not equal to str1 hello str3 is created
-        //with keyword and it is stored in different part of memory and is immutable
+        //with keyword and it is stored in different part of memory and immutable
         //immutable means object cannot be changed or modified
 
         String s1="New York";  //this will be placed under string pool
