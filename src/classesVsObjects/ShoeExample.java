@@ -31,7 +31,7 @@ access-modifier =public , protected , default , private / defines level of acces
  */
 
     String brand;//brand, size, and color serve as my instance variables. all of these are attributes of my shoe
-    int size;
+    int size;//instance variables are declared outside a method body like so.
     String color;
 
 
@@ -39,7 +39,7 @@ access-modifier =public , protected , default , private / defines level of acces
     //we have used key word static
 
     public void wear(){//function of shoe class..this is a method
-        System.out.println("She/He is wearing" +brand+" ");
+        System.out.println("She/He is wearing " +brand+" ");
 
     }
 
@@ -57,7 +57,8 @@ access-modifier =public , protected , default , private / defines level of acces
 
     }
 
-    public String toString(){
+    public String toString(){//toString method gets executed automatically whenever we pass object name into
+        //the print statement.
 
         return brand+ " / "+size+ " / " +color;
     }
