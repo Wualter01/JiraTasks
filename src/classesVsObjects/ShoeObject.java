@@ -62,18 +62,19 @@ public class ShoeObject {
         GenericUtils.StarSeparation();
         String [] array ={"Hello","World"};
 
-        //dataType
+        //dataType we can call our class as a data type and that will include my instance variables int 2X strings
         ShoeExample [] shoes={shoe1,shoe2,shoe3};// all of these have primitive value passed in methods therefor
-        //i can use array and not arrayList
+        //i can use array and not arrayList/ i can only store shoes inside of container (objects ive created from my
+        //shoeExamples class)
 
         //this method is useful to get information from array at index 0
-        shoes[0].getShoeInfo();
+        shoes[0].getShoeInfo();//if i wanted to get information about a lot of shoes id use for loop
 
         GenericUtils.StarSeparation();
 
-        ArrayList<ShoeExample> shoesList = new ArrayList<>();//since our data types are primitive we have autoboxing
-        //converting our primitive data types to wrapper class collection type which only takes objects.
-        //we also created the object of our class arrayList..
+        ArrayList<ShoeExample> shoesList = new ArrayList<>();//ive passed shoesExample as my data type, meaning
+        //i can only pass shoes in this list Ex:shoe1 shoe2 instance objects ive made from my shoeExample class
+        //that is why i must say ShoeExample name = new shoeExample();
 
 
         shoesList.addAll(Arrays.asList(shoe1,shoe2,shoe3));
