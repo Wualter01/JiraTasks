@@ -48,6 +48,11 @@ public class BMW {
 
     public String toString(){
         return brand + "----"+ modelYear + " has engine "+hasEngine + " ====== " +price;
+        //anytime i label my method toString it will override the object and print this when i pass object name to
+        //sout. this will be useful to pass information like static variables that dont change. CONCISE INFORMATION
+        //MEANING GIVING A LOT OF INFORMATION CLEARLY AND IN A FEW WORDS.
     }
+
+
 
 }

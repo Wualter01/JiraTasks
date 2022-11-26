@@ -19,6 +19,14 @@ public class BMWObject {
         System.out.println(BMWSuv);//only my static variables that wont change for each object will have value
         //output = BMW , 0 , true , 0
 
+        System.out.println(BMW.isHasEngine());//since this method has a return type i have to put it in println
+        //we do this so i can manipulate if it were void it would just print but i could not manipulate result.
+
+        System.out.println(BMWSuv.price);//since it is not static method i have to call using object and since it has
+        //a return type i must put it in a println to print.
+
+
+
 
     }
 }
