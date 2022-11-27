@@ -30,5 +30,6 @@ public class ConstructorInfo {
 
         ConstructorInfo object2 = new ConstructorInfo(2);//created an object with constructor that has parameter.
 
+
     }
 }
