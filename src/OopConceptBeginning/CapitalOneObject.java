@@ -39,6 +39,10 @@ public class CapitalOneObject {
 
         System.out.println(account2);
 
+        account2.withdraw(2000);
+        System.out.println(account2);
+        account2.AvailableBalance();
+
     }
 
 }
