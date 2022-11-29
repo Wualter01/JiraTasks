@@ -22,7 +22,7 @@ toString: returns the full name and balance
     private double AccountBalance;
 
    // public variables: bankName, firstName, lastName
-    public static String BankName="Capital One";
+    public static String BankName="Capital One";//only static variable the rest are instance variables
     public String firstName;//instance public
     public String lastName;//instance public
 
@@ -45,7 +45,7 @@ toString: returns the full name and balance
     //first name and last name to account holder
 
     public String getAccountHolder(){//you still need getter method for account holder even though we didnt need
-      //account setter becuase we did it with our constructor
+      //account setter because we did it with our constructor
       return AccountHolder;
     }
 
@@ -95,7 +95,7 @@ toString: returns the full name and balance
 
     //toString: returns the full name and balance */
     public String toString(){
-       return "account holder : " +getAccountHolder()+" Account Balance : "+getAccountBalance();
+       return BankName+ " account holder : " +getAccountHolder()+" : Account Balance : "+getAccountBalance();
        //i just need to use my get methods to get full name and accountBalance
     }
 

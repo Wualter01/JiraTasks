@@ -1,5 +1,7 @@
 package OopConceptBeginning;
 
+import MyUtils.GenericUtils;
+
 public class CapitalOneObject {
     public static void main(String[] args) {
         BankAccountCapitalOne account1 = new BankAccountCapitalOne("Wualter", "Vasquez");
@@ -23,6 +25,20 @@ public class CapitalOneObject {
 
         account1.AvailableBalance();
         System.out.println(account1);
+
+        account1.setAccountNumber(0037363535334334l);//you go above integer default range you'll have to add l for long
+        System.out.println(account1.getAccountNumber());
+
+        GenericUtils.StarSeparation();
+
+        BankAccountCapitalOne account2 = new BankAccountCapitalOne("Jennifer","Ayala");
+        account2.setAccountNumber(934792749274948l);
+        account2.setAccountBalance(5500.0);
+        account2.AvailableBalance();//since it is an instance variable it gives me new information each time. also since
+        //i have made void my return type i dont have one and therefor dont need to pass it in println
+
+        System.out.println(account2);
+
     }
 
 }
