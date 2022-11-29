@@ -26,5 +26,6 @@ public class AnimalObject {
         fox1.age=3;
         fox1.color="orange";
         fox1.smileFox();
+        //when using extends protected variables and methods will be able to be called through inheritance
     }
 }
