@@ -1,4 +1,4 @@
-package inheritance_overwriting.FacebookLogin;
+package inheritance_overriding.FacebookLogin;
 
 public class ConstructorSuper extends Test2 {
     //parent class constructors will be inherited

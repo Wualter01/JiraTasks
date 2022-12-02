@@ -1,4 +1,4 @@
-package inheritance_overwriting.FacebookLogin;
+package inheritance_overriding.FacebookLogin;
 
 class Test{
 //how do you create constructor for your class?

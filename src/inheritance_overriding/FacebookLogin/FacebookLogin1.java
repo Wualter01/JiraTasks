@@ -1,4 +1,4 @@
-package inheritance_overwriting.FacebookLogin;
+package inheritance_overriding.FacebookLogin;
 
 public class FacebookLogin1 {
     /* steps to test facebook login
