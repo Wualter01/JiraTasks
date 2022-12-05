@@ -8,7 +8,9 @@ public class Square extends Shape {
     public final String shapeName="Square";
     public double length;
 
-    public Square(double length){
+    public Square(double length){//this is our constructor, we've passed length so it helps us define our object
+        //if not we would have used a default constructor and still have to define our object this allows us to skip
+        //a step
         this.length=length;
     }
 
