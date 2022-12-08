@@ -23,7 +23,7 @@ public class AbstractionPractice2 implements test1,test2,test3{ //extends can on
 
 }
 
-interface test1{
+interface  test1{
     void method1(); //by default public and abstract because it has no body.
 }
 

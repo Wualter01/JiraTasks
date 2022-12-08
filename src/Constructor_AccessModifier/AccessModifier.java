@@ -18,6 +18,7 @@ public class AccessModifier {
 // It can be accessed from within the class, outside the class, within the package and outside the package
 //access modifier for main method = public
 
+
     public int publicVariable=10;
     private int privateVariable=20;
     int defaultVariable=30;

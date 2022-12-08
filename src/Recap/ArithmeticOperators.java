@@ -6,6 +6,8 @@ public class ArithmeticOperators {
 
     //AS A DEFAULT JAVA WILL TAKE AN UNDEFINED  DECIMAL AS A DOUBLE MUST DEFINE WITH data type
 
+
+
     public static void main(String[] args) {
 
         double d1=5.5;
