@@ -45,7 +45,7 @@ interface appleStore extends downloadable{
     //download is a variable because it has no parameters().we do not need to override download method because we
     //are inheriting to another abstract class
 
-    String storeName="Apple";
+    String storeName="AppleStore";
 }
 
 interface playStore extends downloadable{
