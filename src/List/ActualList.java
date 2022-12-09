@@ -13,7 +13,7 @@ public class ActualList {
     //DataType can not be primitive
    //has to be wrapper class object or different object type
 
-    //ArgayList: part of Collections// is the most used there are others but this one is the most used
+    //ArrayList: part of Collections// is the most used there are others but this one is the most used
     //does not support primitives, only support none primitives
     //size is dynamic, automatically adjusted
 
