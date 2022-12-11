@@ -2,6 +2,7 @@ package Collection;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Stack;
 import java.util.Vector;
 
 public class List<I extends Number> {
@@ -28,7 +29,7 @@ public class List<I extends Number> {
     ////                      adv=thread safe
     ////                      disadv= slower
     ////                 thread: process of operating system scheduling object
-    ////             --extended by Stack(C) : array based class ,is synchorized,last in first out order
+    ////             --extended by Stack(C) : array based class ,is synchronized,last in first out order
     ////        pop(): LIFO, returns the last object from the stack and removes it from stack
     //
     //
@@ -83,6 +84,25 @@ public class List<I extends Number> {
         System.out.println(list3);//serves same functionality as above / use ArrayList when adding a lot of data
         //because it adds faster and if removing use LinkedList
         //vector is slowest because it is thread safe
+
+        Stack<Integer> numbers = new Stack<>();
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(10);
+        numbers.add(5);
+        numbers.add(5);
+
+        System.out.println(numbers);
+        //        pop(): LIFO, returns the last object from the stack and removes it from stack
+        Integer num=numbers.pop();
+        System.out.println("num = " + num);//this is the number removed from stack
+        System.out.println(numbers);
+
+        //list general points ;
+        //    //1.List are allowing duplicates objects
+        //    //2.order : list will keep the insertion sequence.
+        //    //3null elements : list will allow you to use any number of null elements;
+        //    //4.list has dynamic size
 
     }
 }
